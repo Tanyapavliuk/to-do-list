@@ -1,20 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const initialState = [
-  {
-    id: '1',
-    title: 'My first task',
-    description:
-      'Description of first task Description of first task Description of first task Description of first task Description of first task Description of first task',
-    isProces: false,
-  },
-  {
-    id: '2',
-    title: 'My second task',
-    description: 'Description of second task',
-    isProces: false,
-  },
-];
+const initialState = [];
 
 export const todosSlice = createSlice({
   name: 'todos',
