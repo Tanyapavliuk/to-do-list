@@ -1,0 +1,29 @@
+.listTodosStyle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .listTodosStyle {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0;
+        }
+}
+
+.todosItem {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .todosItem {
+        width: calc((100% - 20px) / 2);
+    }
+}
