@@ -10,6 +10,7 @@
 @media screen and (min-width: 768px) {
     .listTodosStyle {
         width: 100%;
+        color: #ccc;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
